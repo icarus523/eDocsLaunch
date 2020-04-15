@@ -54,8 +54,16 @@ class eDocsLaunch(threading.Thread):
 
     def __init__(self):
         self.root = tk.Tk()
+        self.cleanUp() 
+        
         Thread(self.setupGUI()).start() 
 
+    def cleanUp(self): 
+        drf_filelist = [x for x in os.listdir('.') if x.endswith('.drf')]
+        
+        for file in drf_filelist: 
+           os.remove(file) # warning deletes files
+        
     def setupGUI(self):
         self.root.wm_title("eDocsLaunch v" + VERSION)
         self.root.resizable(1,1)
@@ -95,6 +103,7 @@ class eDocsLaunch(threading.Thread):
         os.startfile(fname_out)
 
 def main():
+    app = None
     app = eDocsLaunch()
 
 if __name__ == "__main__": main()
