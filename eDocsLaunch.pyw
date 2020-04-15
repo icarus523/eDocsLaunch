@@ -69,7 +69,7 @@ class eDocsLaunch(threading.Thread):
         for entry in eDOCS_data:
             if entry['type'] in doc_type:
                 # make buttons
-                button = tk.Button(
+                button = ttk.Button(
                     self.root,
                     text = entry['info'],
                     command = lambda doc_num=str(entry['doc_num']): self.handleButtonPress(doc_num))
