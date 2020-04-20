@@ -1,0 +1,78 @@
+{
+    "eDOCS_data": [
+        {
+            "doc_num": 1750506,
+            "info": "CHK35v18 Non-EGM",
+            "type": "checklist"
+        },
+        {
+            "doc_num": 1805674,
+            "info": "CHK39v10 LTFO",
+            "type": "checklist"
+        },
+        {
+            "doc_num": 1813905,
+            "info": "CHK44v3 OK to LTFO",
+            "type": "checklist"
+        },
+        {
+            "doc_num": 1739471,
+            "info": "WI10 Database Procedure",
+            "type": "work_instruction"
+        },
+        {
+            "doc_num": 1792324,
+            "info": "FM14 Central Contact",
+            "type": "form"
+        },
+        {
+            "doc_num": 1751672,
+            "info": "FM55 TU Key Decision Register",
+            "type": "form"
+        },
+        {
+            "type": "blank"
+        },
+        {
+            "doc_num": 1822369,
+            "info": "TP18 Memo",
+            "type": "template"
+        },
+        {
+            "doc_num": 1393000,
+            "info": "GSB Memo (Director++)",
+            "type": "template"
+        },
+        {
+            "type": "blank"
+        },
+        {
+            "doc_num": 1914608,
+            "info": "TP06 EGM Game Approval",
+            "type": "template"
+        },
+        {
+            "doc_num": 1914354,
+            "info": "TP07 EGM Hardware Approval",
+            "type": "template"
+        },
+        {
+            "doc_num": 1848746,
+            "info": "TP27v40 Systems Approval",
+            "type": "template"
+        },
+        {
+            "type": "blank"
+        },
+        {
+            "doc_num": 1418148,
+            "info": "GSB Leave Calendar",
+            "type": "other"
+        }
+    ],
+    "floating_window": true,
+    "full_screen": false,
+    "geometry": "",
+    "prefs_fname": "prefs.json",
+    "user": "aceretjr"
+}
